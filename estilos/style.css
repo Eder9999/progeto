@@ -30,8 +30,8 @@ section{
     position: absolute;
     top: 50%;
     left: 50%;
-    max-width: 767px;
-    min-width: 250px;
+    width: 100vw;
+    height: 100vh;
     height: 500px;
     border-radius: 8px;
      transform: translate(-50%, -50%);
