@@ -18,8 +18,7 @@ body, html{
     width: 100vw;   
 }
 main{
-    width: 100vw;
-    height: 100vh;
+    width: 100vw;   
     text-align: center;
     display: block;    
 }
@@ -40,7 +39,7 @@ section.img > h1{
 section.img > h2{
     font-family: Helvetica, sans-serif cursive; 
     font-size: 1.2em;
-    font-weight: lighter; 
+    font-weight: normal; 
 }
 section.content{
    padding-top: 20px;
@@ -70,7 +69,8 @@ section.content > nav > a{
     width: 80%;
     padding: 10px;
     margin: auto;
-    border-radius: 8px;  
+    border-radius: 8px;
+    font-weight: bold;  
 }
 section.content > nav > a#entrar{
         background-color: rgb(33, 150, 243);margin-bottom: 5px;  
@@ -96,4 +96,33 @@ section.content > a#mais:hover{
     text-decoration: underline;
     transition: .2s;
 }
+footer{
+    background-color:#333 ;
+    color: white;
+    margin-top: 20px;
+}
+footer > nav{
+    padding: 10px;
+}
+footer > nav > a{
+    font-family:"Segoe UI", sans-serif ;
+    display: block;
+    text-decoration: none;
+    color: white;
+    line-height: 1.5em;
+    font-size: 1em;
+}
+footer > nav > a:hover{
+    text-decoration: underline;
+    transition: .2s;
+}
+footer > section.logo{
+    text-align: center;
+    font-family: "Segoe UI", sans-serif;
+}
+footer > section.logo > span{
+    display: block;
+    font-size: 3em;
+}
+
 
