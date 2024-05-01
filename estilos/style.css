@@ -108,3 +108,38 @@ section.content > a#mais:hover{
     text-decoration: underline;
     transition: .2s;
 }
+footer{
+    background-color:#333 ;
+    color: white;
+    margin-top: 20px;
+   
+}
+footer > nav{
+    padding: 10px;
+}
+footer > nav > a{
+    font-family:"Segoe UI", sans-serif ;
+    display: block;
+    text-decoration: none;
+    color: white;
+    line-height: 1.5em;
+    font-size: 1em;
+}
+footer > nav > a:hover{
+    text-decoration: underline;
+    transition: .2s;
+}
+footer > section.logo{
+    text-align: center;
+    font-family: "Segoe UI", sans-serif;
+}
+footer > section.logo > span{
+    display: block;
+    font-size: 3em;
+}
+footer > section.logo >p{
+    display: block;
+    padding-bottom: 20px;
+}
+
+
